@@ -1,5 +1,4 @@
 
-
 // constants
 const TOTAL_COLUMNS = 7;
 const TOTAL_ROWS = 7;

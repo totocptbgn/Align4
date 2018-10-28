@@ -1,5 +1,5 @@
-// translation
 
+// translation
 title = document.getElementsByTagName('h1')[0].innerHTML;
 title2 = document.getElementsByTagName('h2')[0].innerHTML;
 title3 = document.getElementsByTagName('h2')[2].innerHTML;
