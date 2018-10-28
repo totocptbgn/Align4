@@ -43,19 +43,6 @@ body {
   padding: 10px 20px;
 }
 
-.propos {
-  display: none;
-  position: relative;
-  float: left;
-  width: 428px;
-  height: 428px;
-  margin-top: 68px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
-  background-color: #202b30;
-  border-radius: 3px;
-  color: #9ca6aa;
-}
-
 .sidebar {
   float: left;
   margin-right: 20px;
@@ -101,21 +88,6 @@ a.me {
 
 button.translate {
   float: right;
-  margin: -11px 3px;
-  background-color: #202b30;
-  font-family: inherit;
-  font-size: 15px;
-  border: none;
-  border-radius: 4px;
-  background-color: #202b30;
-  color: #fff;
-  cursor: pointer;
-  padding: 0px 6px;
-}
-
-button.aboutButton {
-  float: right;
-  margin: -11px 3px;
   background-color: #202b30;
   font-family: inherit;
   font-size: 15px;

@@ -1,23 +1,11 @@
-// totocptbgn works :
-
-abouton = document.getElementsByTagName('button')[2].innerHTML;
-
-$('.aboutButton')
-  .on('click', function() {
-    board = $('.board');
-    board = board[0];
-    board.style.display = "none";
-
-    propos = $('.propos');
-    propos = propos[0];
-    propos.style.display = "inline";
-});
-
+// translation
 
 title = document.getElementsByTagName('h1')[0].innerHTML;
 title2 = document.getElementsByTagName('h2')[0].innerHTML;
 title3 = document.getElementsByTagName('h2')[2].innerHTML;
 button = document.getElementsByTagName('button')[0].innerHTML;
+about = document.getElementById('about').innerHTML;
+about2 = document.getElementById('about2').innerHTML;
 trans = document.getElementsByTagName('button')[1].innerHTML;
 
 
@@ -88,6 +76,8 @@ if (par == "true") {
    document.getElementsByTagName('h2')[0].innerHTML = "Difficulté :";
    document.getElementsByTagName('h2')[2].innerHTML = "À propos.";
    document.getElementsByTagName('button')[0].innerHTML = "Lancer";
+   document.getElementById('about').innerHTML = "Design et traduction par ";
+   document.getElementById('about2').innerHTML = "Gameplay par :";
    document.getElementsByTagName('button')[1].innerHTML = 'EN <img src=\"img/EnFlag.png\" class=\"flag\">';
    fr = true;
 } else {
@@ -152,6 +142,8 @@ function translate() {
     document.getElementsByTagName('h2')[0].innerHTML = title2;
     document.getElementsByTagName('h2')[2].innerHTML = title3;
     document.getElementsByTagName('button')[0].innerHTML = button;
+    document.getElementById('about').innerHTML = about;
+    document.getElementById('about2').innerHTML = about2;
     document.getElementsByTagName('button')[1].innerHTML = trans;
   } else {
   BLURBS = {
@@ -187,6 +179,8 @@ function translate() {
     document.getElementsByTagName('h2')[0].innerHTML = "Difficulté :";
     document.getElementsByTagName('h2')[2].innerHTML = "À propos.";
     document.getElementsByTagName('button')[0].innerHTML = "Lancer";
+    document.getElementById('about').innerHTML = "Design et traduction par ";
+    document.getElementById('about2').innerHTML = "Gameplay par :";
     document.getElementsByTagName('button')[1].innerHTML = 'EN <img src=\"img/EnFlag.png\" class=\"flag\">';
 }
   setBlurb(lastBlurb);
@@ -199,11 +193,6 @@ function translate() {
   }
   document.cookie = "fr="+fr;
 }
-
-
-///////
-
-
 
 // constants
 const WEB_WORKER_URL = 'js/worker.js';
