@@ -7,6 +7,7 @@ J'ai refait le CSS.
 J'ai aussi ajouter une traduction française dynamique en JavaScript.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 I hope you will enjoy it ! 😄
 ## Links
@@ -15,6 +16,13 @@ The original game on [Codepen](https://codepen.io/lonekorean/pen/Gbwvc).
 The game hosted on GitHub :  [**PLAY !**](https://totocptbgn.github.io/Align4/)
 
 ## My work
+=======
+## Links
+The original game on [Codepen](https://codepen.io/lonekorean/pen/Gbwvc).
+My remake : [Align4](https://totocptbgn.github.io/Align4/).
+
+## Code change
+>>>>>>> bc6fcb3c915bf02731aed4b16ebae4b3f3bdf583
 =======
 ## Links
 The original game on [Codepen](https://codepen.io/lonekorean/pen/Gbwvc).
