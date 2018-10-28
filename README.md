@@ -1,5 +1,5 @@
 # Align4
-This project is a redesign of game created by [Will Boyd](https://github.com/lonekorean) on his [Codepen](https://codepen.io/lonekorean).
+This project is a redesign of the game created by [Will Boyd](https://github.com/lonekorean) on his [Codepen](https://codepen.io/lonekorean).
 I redone the CSS.
 I also added a dynamic translation to French with JavaScript.
 >Ce projet est un redesign du jeu créer par [Will Boyd](https://github.com/lonekorean) on his [Codepen](https://codepen.io/lonekorean).
@@ -10,7 +10,7 @@ I hope you will enjoy it ! 😄
 ## Links
 The original game on [Codepen](https://codepen.io/lonekorean/pen/Gbwvc).
 
-The game hosted on GitHub :  [**PLAY !**](https://totocptbgn.github.io/Align4/)
+The game is host on GitHub :  [**PLAY !**](https://totocptbgn.github.io/Align4/)
 
 ## My work
 - New image files in [`docs/img`](https://github.com/totocptbgn/Align4/tree/master/docs/img).
